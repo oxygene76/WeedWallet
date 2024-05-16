@@ -9,7 +9,7 @@
         class="ma-4"
         height="64"
         width="64"
-        src="https://wallet.bitcanna.io/BCNA-LOGO-C.svg"
+        src="https://app.medas-digital.io/medas.svg"
       > 
       <v-sheet
         color="#151618"
