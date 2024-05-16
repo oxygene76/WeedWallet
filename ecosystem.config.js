@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'WeedWallet3',
+      name: 'MedasDigital App',
       port: '4200',
       exec_mode: 'cluster',
       instances: 'max',

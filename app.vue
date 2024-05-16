@@ -192,7 +192,7 @@ export default {
       // ['mdi-account-multiple', 'Groups manager', '/groups'],
       ["mdi-chevron-right", "NFTs", "/nfts"],
       //["mdi-chevron-right", "Create proposal", "/create-proposal"],
-      ["mdi-chevron-right", "Get BCNA", "/get-bcna"],
+      ["mdi-chevron-right", "Get MEDAS", "/get-medas"],
     ],
   }),
   

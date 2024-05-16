@@ -6,7 +6,7 @@
       <v-col class="ml-4 mt-6 mb-6">
         <!-- <h1>        <img
           src="/keplr.png"
-          alt="bcna"
+          alt="medas"
           height="40"
           width="40"
         >{{ store.nameWallet }}'s portfolio</h1> -->
@@ -32,7 +32,7 @@
               <v-row>
                 <v-col
                   md="6"
-                  class="text-textbcna"
+                  class="text-textmedas"
                 >
                   Main account<br>
                   <h1 class="mt-2 carmenBold">
@@ -80,8 +80,8 @@
                     height="160"
                   >
                     <img
-                      src="https://wallet.bitcanna.io/BCNA-LOGO-C.svg"
-                      alt="bcna"
+                      src="https://app.medas-digital.io/medas.svg"
+                      alt="medas"
                       height="40"
                       width="40"
                     >
@@ -235,7 +235,7 @@
             </p>
           </v-col>
           <template v-for="group in groupedEvents()">
-            <div class="text-textbcna">
+            <div class="text-textmedas">
               <h3 class="ml-2">
                 {{ group[0].section }}
               </h3>
@@ -271,7 +271,7 @@
                     cols="2"
                     class="mt-2 text-right"
                   >
-                    {{ item.final.msgData?.amount }} BCNA
+                    {{ item.final.msgData?.amount }} MEDAS
                   </v-col>
                   <v-col
                     v-else
@@ -309,10 +309,10 @@
               <v-row>
                 <v-col class="mt-2">
                   <span>
-                    <h1 class="text-textbcna">Available to stake</h1>
+                    <h1 class="text-textmedas">Available to stake</h1>
                   </span>
                   <br>
-                  <h2 class="text-textbcna">
+                  <h2 class="text-textmedas">
                     {{ store.spendableBalances }}
                     {{ cosmosConfig[store.chainSelected].coinLookup.viewDenom }}
                   </h2>
@@ -354,10 +354,10 @@
               <v-row>
                 <v-col class="mt-2">
                   <span>
-                    <h1 class="text-textbcna">Your rewards</h1>
+                    <h1 class="text-textmedas">Your rewards</h1>
                   </span>
                   <br>
-                  <h2 class="text-textbcna">
+                  <h2 class="text-textmedas">
                     {{ store.totalRewards }}
                     {{ cosmosConfig[store.chainSelected].coinLookup.viewDenom }}
                   </h2>

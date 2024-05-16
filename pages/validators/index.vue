@@ -11,7 +11,7 @@
               <v-card-title class="headline">
                 <v-col class="mt-2">
                   <h4 class="icon">
-                    <img src="https://wallet.bitcanna.io/icon/wallet.png">
+                    <img src="https://app.medas-digital.io/icon/wallet.png">
                     &ensp; Wallet value
                   </h4>
                 </v-col>
@@ -27,7 +27,7 @@
               <v-card-title class="headline">
                 <v-col class="mt-2">
                   <h4 class="icon">
-                    <img src="https://wallet.bitcanna.io/icon/validator.png">
+                    <img src="https://app.medas-digital.io/icon/validator.png">
                     &ensp; Validators
                   </h4>
                 </v-col>
@@ -42,12 +42,12 @@
               <v-card-title class="headline">
                 <v-col class="mt-2">
                   <h4 class="icon">
-                    <img src="https://wallet.bitcanna.io/icon/tokens.png">
+                    <img src="https://app.medas-digital.io/icon/tokens.png">
                     &ensp; Total Bonded
                   </h4>
                 </v-col>
                 <v-col class="text-right">
-                  {{ (totalBonded / 1000000).toFixed(2) }} BCNA
+                  {{ (totalBonded / 1000000).toFixed(2) }} MEDAS
                 </v-col>
               </v-card-title>
             </v-card>

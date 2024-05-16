@@ -1,5 +1,5 @@
 <template>
-  <v-container class="bcnaBackground">
+  <v-container class="medasBackground">
     <v-row
       justify="center"
       align="center"
@@ -11,8 +11,8 @@
       >
         <div class="mt-10 row justify-center">
           <v-img
-            alt="Cosmofolio Logo"
-            src="logo-bcna.png"
+            alt="Medas Logo"
+            src="medas.png"
             max-height="120"
             max-width="120"
           />
@@ -50,7 +50,7 @@
             <v-row>
               <v-col cols="3">
                 <v-img
-                  alt="bcna"
+                  alt="medas"
                   src="keplr.svg"
                   height="32"
                   width="32"
@@ -73,7 +73,7 @@
             <v-row>
               <v-col cols="3">
                 <v-img
-                  alt="bcna"
+                  alt="medas"
                   src="cosmostation.svg"
                   height="32"
                   width="32"
@@ -152,12 +152,12 @@ export default {
       description: 'Harnessing the power of blockchain to create equal opportunities for cannabis-related industries',
       ogTitle: 'BitCanna - Webwallet',
       ogDescription: 'Harnessing the power of blockchain to create equal opportunities for cannabis-related industries',
-      ogImage: 'http://localhost:3000/logo-bcna.png',
-      ogUrl: 'https://www.bitcanna.io/',
-      twitterTitle: 'BitCanna - Webwallet',
-      twitterDescription: 'Harnessing the power of blockchain to create equal opportunities for cannabis-related industries',
-      twitterImage: 'http://localhost:3000/logo-bcna.png',
-      twitterCard: 'Harnessing the power of blockchain to create equal opportunities for cannabis-related industries'
+      ogImage: 'http://localhost:3000/medas.png',
+      ogUrl: 'https://www.medas-digital.io/',
+      twitterTitle: 'MedasDigital - Webwallet',
+      twitterDescription: '',
+      twitterImage: 'http://localhost:3000/medas.png',
+      twitterCard: ''
     })
     useHead({
       htmlAttrs: {
@@ -226,7 +226,7 @@ export default {
 };
 </script>
 <style>
-.bcnaBackground {
+.medasBackground {
   background: transparent url("/bg_imgs.png") 0 0 no-repeat padding-box;
   background-size: 800px;
   background-position: 20% 10%;

@@ -148,13 +148,13 @@ import cosmosConfig from "~/cosmos.config";
         {
           color: '#0FB786',
           icon: 'mdi-account',
-          subtitle: 'bcna13jawsn574rf3f0u5rhu7e8n6sayx5gkwgusz73',
-          title: 'atmon3r',
+          subtitle: 'medas',
+          title: 'xgn',
         },
         {
           color: '#0FB786',
           icon: 'mdi-account',
-          subtitle: 'bcna148ml2tghqkfvzj8q27dlxw6ghe3vlmprhru76x',
+          subtitle: 'medas',
           title: 'Wallet1',
         },
       ]
